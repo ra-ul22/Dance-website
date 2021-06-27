@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Rahul Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top 
+        ul 
+            div#logoCont
+                img#logo(src='../static/logo.jpg', alt='logo')
+                | RDA
+            li#item1 
+                a(href='/') Home
+            li#item2 
+                a(href='/') About
+            li#item3 
+                a(href='/') Services
+            li#item4 
+                a(href='/') ClassInfo
+            li#item5 
+                a(href='/contact') ContactUs
+    block content
+    footer#footer 
+        | Copyright &copy 2021 RahulDanceAcademy.com | All rights reserved 

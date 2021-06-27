@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts 
+    script(src="index.js") 
+
+block style
+    style 
+        include style.css
+        include styleContact.css
+
+block content
+    div.formContainer
+        h1 Contact Us
+        form.myForm(action='/contact', method='post')
+            input.myInput(type="text", name='name', placeholder='Enter your name')
+            input.myInput(type="text", name='phone', placeholder='Enter your phone number')
+            input.myInput(type="text", name='email', placeholder='Enter your email ID')
+            input.myInput(type="text", name='address', placeholder='Enter your address')
+            input.myInput(type="text", name='concern', placeholder='What is your concern?')
+            button.btn Submit

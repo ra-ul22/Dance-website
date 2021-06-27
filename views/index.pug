@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    title Rahul Dance Academy
+    style
+      include style.css
+  body
+    nav#navbar.top 
+        ul 
+            div#logoCont
+                img#logo(src='../static/logo.jpg', alt='logo')
+                | RDA
+            li#item1 
+                a(href='/') Home
+            li#item2 
+                a(href='/') About
+            li#item3 
+                a(href='/') Services
+            li#item4 
+                a(href='/') ClassInfo
+            li#item5 
+                a(href='/') ContactUs
+
+    section#introSection 
+        p.welcome Welcome to Rahul's Dance Academy 
+        p.eat Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Missions
+        div.card 
+            h3 Dance Perfection
+                div.cardBox
+                    div.cardImg
+                        img#icon1(src='../static/icon1.jpg' alt='icon1')
+                    div.cardContent
+                        |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quod dolores fuga reiciendis sed error commodi dignissimos quam. Nesciunt est harum numquam tempora.
+        div.card 
+            h3 Dance the way you like
+                div.cardBox
+                    div.cardImg
+                        img#icon2(src='../static/icon2.jpg' alt='icon2')
+                    div.cardContent
+                        |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quod dolores fuga reiciendis sed error commodi dignissimos quam. Nesciunt est harum numquam tempora.
+        div.card 
+            h3 Expert Teaching
+                div.cardBox
+                    div.cardImg
+                        img#icon3(src='../static/icon3.jpg', alt='icon3')
+                    div.cardContent
+                        |Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quod dolores fuga reiciendis sed error commodi dignissimos quam. Nesciunt est harum numquam tempora.
+    section#sponserSection 
+        h2 Our Sponsers
+        div#sponsers
+            img(src='../static/sponsers/1.png', alt="logo", class='spimage')
+            img(src='../static/sponsers/2.png', alt="logo", class='spimage')
+            img(src='../static/sponsers/3.png', alt="logo", class='spimage')
+            img(src='../static/sponsers/4.png', alt="logo", class='spimage')
+
+    footer#footer 
+        | Copyright &copy 2021 RahulDanceAcademy.com | All rights reserved 
+    script
+      include index.js

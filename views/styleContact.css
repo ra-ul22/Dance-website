@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.formContainer{
+    height: 83vh;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    text-align: center;
+    margin: 6px 0px;
+    padding: 5px;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: rgba(128, 0, 128, 0.534);
+    width: 20%;
+    margin: 6px 0px 36px 0px;
+    padding: 4px;
+    border-radius: 10px;
+}

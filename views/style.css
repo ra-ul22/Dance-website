@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kirang+Haerang&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    background-color: #ff00b6;
+}
+
+#logo{
+    display: inline-block;
+    height: 41px;
+    width: 46px;
+    margin: 0px 8px;
+    filter: invert(1);
+}
+
+#logoCont{
+    position: absolute;
+    top: 3px;
+    left: 22px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#navbar ul{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: 0px 122px;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 0px 6px;
+}
+
+#navbar li{
+    /* border: 2px solid black; */
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-family: 'Kirang Haerang', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-size: 2rem;
+}
+
+#introSection{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    height: 650px;
+    background: rgba(153, 51, 153, 0.253) url(/static/pic1.jpg) no-repeat center/cover;
+    background-position-y: top;
+}
+
+.eat{
+    font-size: 25px;
+}
+
+#missionSection{
+    text-align: center;
+    height: 300px;
+}
+
+.cardBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardContent{
+    font-size: 20px;
+    padding: 21px 4px;
+    font-weight: initial;
+}
+
+.cardImg{
+    display: inline-block;
+    height: 90px;
+    width: 68px;
+}
+
+.cardImg img{
+    height: inherit;
+    /* padding: inherit; */
+}
+
+#missionSection h2{
+    padding: 9px 5px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80%;
+    width: 28%;
+    margin: 2px 32px;
+    padding: 9px 15px;
+    font-size: 20px;
+}
+
+#sponserSection {
+    text-align: center;
+    background-color: #ff00d942;
+    height: 300px;
+    margin: auto;
+}
+
+#sponserSection h2{
+    padding: 14px 3px;
+}
+
+#sponsers{
+    margin: auto;
+    width: 80%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spimage{
+    height: 100px;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    height: 49px;
+    color: white;
+    padding: 12px 2px;
+}
